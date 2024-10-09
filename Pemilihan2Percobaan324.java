@@ -34,5 +34,7 @@ public class Pemilihan2Percobaan324 {
          }else{
             System.out.println("Msukkan kategori salah");
          }
+
+         input24.close();
     }
 }
