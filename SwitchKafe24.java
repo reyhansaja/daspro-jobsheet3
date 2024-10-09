@@ -39,6 +39,9 @@ public class SwitchKafe24{
             case 'L':
                 totalHarga += 0.4 * totalHarga;
                 break;
+            default:
+                System.out.println("Masukkan ukuran yang benar");
+                return;
         }
         double diskon = keanggotaan ? 0 : 0.1;
         double nominalBayar = totalHarga - (diskon*totalHarga);
